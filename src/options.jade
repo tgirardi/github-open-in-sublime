@@ -1,0 +1,36 @@
+doctype html
+html(lang="en")
+  head
+    title Github Open in Sublime - Options
+    link(href="lib/bootstrap/bootstrap.css", rel="stylesheet")
+    meta(name="viewport", content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no")
+  body
+    .container
+      h1 Github Open in Sublime
+      h2 Options
+      form
+        .form-group
+          table
+            thead
+              tr
+                th Repository Name
+                th Local Path
+            tbody
+              tr#local-mapping-row-template.hide
+                td
+                  input(type="text", name="repo-name",
+                    placeholder="Repo Name (e.g: My Repo)")
+                td
+                  input(type="text", name="local-path",
+                    placeholder="Local Path (e.g: ~/my-repo)")
+                td
+                  input.btn.btn-danger.btn-local-mapping-delete(type="button",
+                    value="Delete")
+          input#add-local-mapping-row.btn(type="button",
+            value="Add Another Repo")
+        button#save.btn.btn-default(type="submit") Save
+      #status
+
+    script(src="lib/jquery/jquery.js")
+    script(src="lib/bootstrap//bootstrap.js")
+    script(src="options.js")

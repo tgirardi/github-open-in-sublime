@@ -1,0 +1,29 @@
+{
+  "name": "github-open-in-sublime",
+  "version": "0.0.1",
+  "homepage": "https://github.com/tgirardi/github-open-in-sublime",
+  "authors": [
+    "Tomás Girardi <tgirardi@gmail.com>"
+  ],
+  "description": "Easily open a project's file while looking at it (or a \"diff data\" of it) in Github",
+  "main": "github-sublime.js",
+  "keywords": [
+    "github",
+    "sublime",
+    "chrome",
+    "content script"
+  ],
+  "license": "ISC",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.3",
+    "bootstrap": "~3.3.2",
+    "fontawesome": "~4.3.0"
+  }
+}

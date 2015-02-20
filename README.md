@@ -6,8 +6,16 @@ example, in a diff view of a commit) in github.com.
 
 # How to use
 
-**Before you continue**, please notice: this content script **does not work
+**BEFORE YOU CONTINUE**, please notice: this content script **does not work**
 "out-of-the-box". Please read the "Dependencies > Use" section.
+
+After installing the content script, go to [chrome://extensions](chrome://extensions).
+Look for this content script and click on the "Options" link. A popup window should
+appear with a form. In that form you must configure this extension.
+
+When configuring, you need to map each repository, in which you want to be able to use
+this extension, to their path in your local machine. Press save once you have finished
+configuring the extension.
 
 Open the repository page (in github.com) using Google Crome.
 

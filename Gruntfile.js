@@ -17,7 +17,7 @@ module.exports = function (grunt) {
       main: {
         expand: true,
         cwd: 'src/',
-        src: '*.js',
+        src: ['*.js', 'manifest.json'],
         dest: 'dist/'
       }
     },

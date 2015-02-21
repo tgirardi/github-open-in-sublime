@@ -4,6 +4,18 @@ Content Script for Google Chrome that offers a simple way of opening a file (in
 the selected line), when taking a look at a file (or a portion of a file, for
 example, in a diff view of a commit) in github.com.
 
+# TODO
+
+Collaborators are welcome to help me with these! :-)
+
+* Add an Icon to the extension
+* Add screenshots to this Readme
+* Add a GIF file to this Readme that quickly shows how to use this extension
+  (another one that shows how to configure it would also be helpful)
+* Test the extension in different sections of github.com to check if it works in
+  everyone of them
+* Add a docs generator to grunt tasks
+
 # How to use
 
 **BEFORE YOU CONTINUE**, please notice: this content script **does not work**

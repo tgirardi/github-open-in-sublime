@@ -18,6 +18,8 @@ Collaborators are welcome to help me with these! :-)
 
 # How to use
 
+Video: [http://youtu.be/_eRaJ6uo69Y](http://youtu.be/_eRaJ6uo69Y)
+
 **BEFORE YOU CONTINUE**, please notice: this content script **does not work
 "out-of-the-box"**. Please read the "Dependencies > Use" section.
 

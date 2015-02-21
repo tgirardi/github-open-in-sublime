@@ -18,8 +18,8 @@ Collaborators are welcome to help me with these! :-)
 
 # How to use
 
-**BEFORE YOU CONTINUE**, please notice: this content script **does not work**
-"out-of-the-box". Please read the "Dependencies > Use" section.
+**BEFORE YOU CONTINUE**, please notice: this content script **does not work
+"out-of-the-box"**. Please read the "Dependencies > Use" section.
 
 After installing the content script, go to [chrome://extensions](chrome://extensions).
 Look for this content script and click on the "Options" link. A popup window should

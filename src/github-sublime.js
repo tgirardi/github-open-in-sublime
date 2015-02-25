@@ -70,6 +70,7 @@
       id = $element.attr('id'),
       // get the line number corresponding to the clicked line
       lineNum = ((id && id.match(/^LC(\d+)$/)) || [])[1] || $element
+        .closest('tr')
         .children('[data-line-number]:not([data-line-number=""]):last')
         .attr('data-line-number'),
       // get the file path og the file that contains the clicked line

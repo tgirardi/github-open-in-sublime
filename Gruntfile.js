@@ -3,9 +3,11 @@
 'use strict';
 
 module.exports = function (grunt) {
+  var pkg = grunt.file.readJSON('package.json');
 
   // Project configuration.
   grunt.initConfig({
+    pkg: pkg,
     bower: {
       install: {
         options: {
@@ -19,6 +21,12 @@ module.exports = function (grunt) {
         cwd: 'src/',
         src: ['*.js', 'manifest.json'],
         dest: 'dist/'
+      },
+      release: {
+        expand: true,
+        cwd: 'dist/',
+        src: ['**/*'],
+        dest: '<%= pkg.name %>-<%= pkg.version %>/'
       }
     },
     jshint: {
@@ -29,8 +37,21 @@ module.exports = function (grunt) {
     },
     jade: {
       'dist/options.html': 'src/options.jade'
+    },
+    compress: {
+      main: {
+        options: {
+          archive: '<%= pkg.name %>-<%= pkg.version %>.zip'
+        },
+        files: [
+          {src: '<%= pkg.name %>-<%= pkg.version %>/**/*'}
+        ]
+      }
     }
   });
+
+  // compression (e.g: zip) tasks
+  grunt.loadNpmTasks('grunt-contrib-compress');
 
   // linting tasks
   grunt.loadNpmTasks('grunt-contrib-jshint');
@@ -46,7 +67,11 @@ module.exports = function (grunt) {
 
   // build task
   grunt.registerTask('build', 'Builds the Content Script', ['bower:install',
-    'jade', 'copy']);
+    'jade', 'copy:main']);
+
+  // release task
+  grunt.registerTask('release', 'Builds and makes a release of the Content ' +
+    'Script', ['build', 'copy:release', 'compress']);
 
   // default task
   grunt.registerTask('default', 'Runs all tasks necessary for development ' +

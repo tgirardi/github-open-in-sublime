@@ -4,6 +4,12 @@ Content Script for Google Chrome that offers a simple way of opening a file (in
 the selected line), when taking a look at a file (or a portion of a file, for
 example, in a diff view of a commit) in github.com.
 
+Screenshots:
+
+![Click the line you want](http://www.clipular.com/c/5254671464660992.png?k=eC93VYlyUYnVQtOsN-Q_DtM-JqQ)
+
+![Done](http://www.clipular.com/c/5958988186255360.png?k=p2tpDli55p4IceyFi6bTI4GItXo)
+
 # TODO
 
 Collaborators are welcome to help me with these! :-)

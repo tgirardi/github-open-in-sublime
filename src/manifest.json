@@ -1,6 +1,6 @@
 {
   "name": "Github - Open in Sublime",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "author": "Tomás Girardi - https://github.com/tgirardi",
   "manifest_version": 2,
   "description": "Opens file in Sublime Text, at a specific line, when double clicking in that line on github.com",

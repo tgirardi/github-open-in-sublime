@@ -1,6 +1,14 @@
 (function ($, chrome) {
   'use strict';
 
+  // add Font Awesome @font-face (workaround)
+  var styleNode = document.createElement ('style');
+  styleNode.type = 'text/css';
+  styleNode.textContent = '@font-face { font-family: "FontAwesome"; src: url("' +
+    chrome.extension.getURL ('lib/fontawesome/fontawesome-webfont.woff') +
+    '"); }';
+  document.head.appendChild (styleNode);
+
   // jQuery selector for "desired" lines
   var LINE_SELECTOR =
     'tr.file-diff-line,div.line,.diff-table tr,.blob-wrapper tr';

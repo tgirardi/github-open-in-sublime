@@ -87,14 +87,12 @@ https://github.com/asuth/subl-handler
 
 ### Linux
 
-You must create a "URI Scheme Handler" for the URI Scheme: "subl://" (if someone
-could make a script for that that would be great! :-).
-
-URL Scheme tutorial:
+subl-handler:
+https://github.com/toch/subl-handler
 
 ### Windows
 
-Same as linux
+You must create a "URI Scheme Handler" for the URI Scheme: "subl://". I'm not sure how to do that in windows. Help will be much appreciated :-)
 
 ## How to Contribute
 

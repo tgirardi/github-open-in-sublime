@@ -64,9 +64,7 @@ Once you have those tools installed, install other dependencies with:
 
     npm install
 
-... and:
-
-    bower install
+(Note: there's no need to run bower install, grunt will take care of it)
 
 You can build using:
 

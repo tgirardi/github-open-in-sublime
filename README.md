@@ -83,7 +83,7 @@ the dependencies for your OS:
 #### Mac OS X
 
 SublHandler:
-https://github.com/asuth/subl-handler
+https://github.com/grych/subl-handler
 
 ### Linux
 

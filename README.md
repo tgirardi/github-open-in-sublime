@@ -70,6 +70,8 @@ You can build using:
 
     grunt
 
+Build result is located in the `dir/` directory.
+
 **Note:** All of the commands above must be run inside the project's folder
 
 ### Use

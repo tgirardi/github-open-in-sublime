@@ -15,7 +15,6 @@ Screenshots:
 Collaborators are welcome to help me with these! :-)
 
 * Add an Icon to the extension
-* Add screenshots to this Readme
 * Add a GIF file to this Readme that quickly shows how to use this extension
   (another one that shows how to configure it would also be helpful)
 * Test the extension in different sections of github.com to check if it works in

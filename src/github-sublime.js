@@ -4,8 +4,9 @@
   // add Font Awesome @font-face (workaround)
   var styleNode = document.createElement ('style');
   styleNode.type = 'text/css';
-  styleNode.textContent = '@font-face { font-family: "FontAwesome"; src: url("' +
-    chrome.extension.getURL ('lib/fontawesome/fontawesome-webfont.woff') +
+  styleNode.textContent = '@font-face { font-family: ' +
+    '"FontAwesome"; src: url("' +
+    chrome.extension.getURL('lib/fontawesome/fontawesome-webfont.woff') +
     '"); }';
   document.head.appendChild (styleNode);
 

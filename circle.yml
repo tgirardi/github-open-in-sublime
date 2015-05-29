@@ -3,3 +3,7 @@ machine:
 
   timezone:
     America/Santiago
+
+test:
+  pre:
+    - grunt

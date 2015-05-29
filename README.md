@@ -4,6 +4,8 @@ Content Script for Google Chrome that offers a simple way of opening a file (in
 the selected line), when taking a look at a file (or a portion of a file, for
 example, in a diff view of a commit) in github.com.
 
+![](http://circleci.com/gh/tgirardi/github-open-in-sublime.png?circle-token=e9960778874061fcaf228507e129e7a2fecff939)
+
 Screenshots:
 
 ![Click the line you want](http://www.clipular.com/c/5254671464660992.png?k=eC93VYlyUYnVQtOsN-Q_DtM-JqQ)

@@ -15,7 +15,6 @@ Screenshots:
 Collaborators are welcome to help me with these! :-)
 
 * Add an Icon to the extension
-* Add screenshots to this Readme
 * Add a GIF file to this Readme that quickly shows how to use this extension
   (another one that shows how to configure it would also be helpful)
 * Test the extension in different sections of github.com to check if it works in
@@ -64,13 +63,13 @@ Once you have those tools installed, install other dependencies with:
 
     npm install
 
-... and:
-
-    bower install
+(Note: there's no need to run bower install, grunt will take care of it)
 
 You can build using:
 
     grunt
+
+Build result is located in the `dir/` directory.
 
 **Note:** All of the commands above must be run inside the project's folder
 
@@ -83,18 +82,16 @@ the dependencies for your OS:
 #### Mac OS X
 
 SublHandler:
-https://github.com/asuth/subl-handler
+https://github.com/grych/subl-handler
 
 ### Linux
 
-You must create a "URI Scheme Handler" for the URI Scheme: "subl://" (if someone
-could make a script for that that would be great! :-).
-
-URL Scheme tutorial:
+subl-handler:
+https://github.com/toch/subl-handler
 
 ### Windows
 
-Same as linux
+You must create a "URI Scheme Handler" for the URI Scheme: "subl://". I'm not sure how to do that in windows. Help will be much appreciated :-)
 
 ## How to Contribute
 

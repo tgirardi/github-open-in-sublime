@@ -57,7 +57,7 @@
     'width: 30px'
   ];
   var BUTTONS_TOP_POSITION = '2px';
-  var BUTTONS_LEFT_POSITION = '800px';
+  var BUTTONS_LEFT_POSITION = '770px';
   var BUTTONS_MARGIN = '4px';
 
   // buttons creation

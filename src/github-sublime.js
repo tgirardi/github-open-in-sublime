@@ -18,7 +18,11 @@
    * Repository Name (we get this from the DOM)
    * @type {string}
    */
-  var repoName = $('.js-current-repository').text();
+  var repoName;
+  var pathnameParts =  window.location.pathname.split('/');
+  if(pathnameParts.length > 2) {
+    repoName = pathnameParts[2];
+  }
 
   // we can't continue if we could get a repository name
   if(!repoName) {

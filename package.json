@@ -1,6 +1,6 @@
 {
   "name": "github-open-in-sublime",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Easily open a project's file while looking at it (or a \"diff data\" of it) in Github",
   "main": "github-sublime.js",
   "scripts": {

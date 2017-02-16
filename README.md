@@ -125,5 +125,9 @@ look like those files.
 
 ### Commit Messages Standard
 
-Please follow the rules presented [in this slides](http://www.slideshare.net/TarinGamberini/commit-messages-goodpractices)
+* Max Title's length: 50 characters
+* Max body's line length: 72 characters
+* There must be an empty line between the title and the body
+
+Please follow the rules presented [in these slides](http://www.slideshare.net/TarinGamberini/commit-messages-goodpractices)
 
